@@ -10,8 +10,8 @@ char    *ft_strncpy(char *dest, char *src, unsigned int n)
     }
     while (i < n)
     {
-        dest[i] = 
+        dest[i] = '\0';
+        i++;
     }
-    dest[i] = '\0';
     return (dest);
 }
