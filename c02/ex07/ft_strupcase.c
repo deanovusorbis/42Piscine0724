@@ -7,7 +7,7 @@ char    *ft_strupcase(char *str)
     {
         if(str[i] >= 65 && str[i] <= 990)
         {
-            srt[i] += '32';
+            str[i] += '32';
         }
         i++;
     }
