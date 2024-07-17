@@ -7,7 +7,7 @@ int ft_str_is_numeric(char *str)
     {
         return (1);
     }
-    while(str[i] != '\0')
+    while (str[i] != '\0')
     {
         if (str[i] < 48 || str[i] > 57)
         {
